@@ -56,9 +56,9 @@ nav .search_box {
     line-height: 35px;
 }
 nav .search_box input {
-    border: none;
+    border: 20px;
     outline: none;
-    background: #fff;
+    background: rgb(255, 255, 255);
     height: 100%;
     padding: 0 10px;
     font-size: 20px;
@@ -67,7 +67,7 @@ nav .search_box input {
 nav .search_box span{
     color: #0a5071;
     font-size: 20px;
-    background: #fff;
+    background: #143094;
     height: 100%;
     padding: 8px;
     position: relative;
@@ -100,7 +100,7 @@ nav .bar {
 }
 nav .bar span {
     position: relative;
-    color: #fff;
+    color: #143094;
     font-size: 35px;
 }
 input[type="checkbox"]{
@@ -128,7 +128,7 @@ input[type="checkbox"]{
     nav ol {
         display: flex;
         flex-direction: column;
-        background: #fff;
+        background: #143094;
         height: 0;
         visibility: hidden;
         transition: 0.3s;
@@ -196,6 +196,9 @@ section {
     z-index: -1;
     filter: brightness(30%);
 
+}
+.border {
+    border-radius: 20px;
 }
 
 
