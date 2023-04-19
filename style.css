@@ -216,13 +216,13 @@ header section {
   }
   
   .sidebar {
-    z-index: 1;
+    z-index: 0;
     top: 0;
     left: 0;
     width: 72px;
     height: 100%;
     background: #14274c;
-
+    
     transition: 0.4s;
   }
   
@@ -335,6 +335,13 @@ header section {
     line-height: 1;
     transition: 0.4s;
   }
-
+  /* aside {
+    position: relative;
+    z-index: -1;
+  } */
+  header {
+    z-index: 3;
+    position: relative;
+  }
 
 
