@@ -343,8 +343,34 @@ header section {
     z-index: 3;
     position: relative;
   }
-  .boxdepesquisa {
-    width: 70%;
-    height: 40px;
-  }
+  
+.divbox {
+    width: 100%;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: 200px;
+    background-color: #1e3660;
+    padding-top: 100px;
+    padding-left: 150px;
+    justify-content: space-between;
+   
+    
+      
+}
 
+.fontebranca1 {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+.fontebranca2 {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+.fontebranca3 {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+.fontebranca4 {
+    color: #ffffff;
+    text-decoration-line: none;
+}
