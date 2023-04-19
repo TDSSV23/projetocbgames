@@ -166,7 +166,7 @@ header {
   font-family: Roboto;
 }
 
-section {
+.section {
   width: 100%;
   display: inline-block;
   background: #ccc;
