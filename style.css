@@ -343,5 +343,8 @@ header section {
     z-index: 3;
     position: relative;
   }
-
+  .boxdepesquisa {
+    width: 70%;
+    height: 40px;
+  }
 
