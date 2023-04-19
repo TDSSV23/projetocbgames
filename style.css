@@ -12,7 +12,7 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-nav {
+header nav {
     display: flex;
     width: 100%;
     background-color: #423E3E;
@@ -21,22 +21,22 @@ nav {
     text-align: center;
     padding: 15px 30px;
 }
-nav .icon {
+header nav .icon {
     font-size: 35px;
     font-weight: 800;
     color: #fff;
     cursor: pointer;
 }
 
-nav ol {
+header nav ol {
     display: flex;
     list-style: none;
     margin: auto 0;
 }
-nav ol li {
+header nav ol li {
     margin: 0 2px;
 }
-nav ol li a {
+header nav ol li a {
     color: #fff;
     font-size: 20px;
     text-decoration: none;
@@ -44,18 +44,18 @@ nav ol li a {
     letter-spacing: 1px;
     padding: 5px 10px;
 }
-nav ol li:hover a {
+header nav ol li:hover a {
     border-radius: 20px;
     background: #fff;
     color: #0a5071;
 }
-nav .search_box {
+header nav .search_box {
     display: flex;
     margin: auto 0;
     height: 35px;
     line-height: 35px;
 }
-nav .search_box input {
+header nav .search_box input {
     border: 20px;
     outline: none;
     background: rgb(255, 255, 255);
@@ -64,7 +64,7 @@ nav .search_box input {
     font-size: 20px;
     width: 350px;
 }
-nav .search_box span{
+header nav .search_box span{
     color: #0a5071;
     font-size: 20px;
     background: #143094;
@@ -75,10 +75,10 @@ nav .search_box span{
     z-index: 1;
     right: 0px;
 }
-nav .search_box span:hover {
+header nav .search_box span:hover {
     color: #fff;
 }
-nav .search_box span::after {
+header nav .search_box span::after {
     height: 100%;
     width: 0%;
     content: '';
@@ -89,43 +89,43 @@ nav .search_box span::after {
     z-index: -1;
     transition: 0.3s;
 } 
-nav .search_box span:hover::after {
+header nav .search_box span:hover::after {
     width: 100%;
 
 }
-nav .bar {
+header nav .bar {
     position: relative;
     margin: auto;
     display: none;
 }
-nav .bar span {
+header nav .bar span {
     position: relative;
     color: #143094;
     font-size: 35px;
 }
-input[type="checkbox"]{
+header input[type="checkbox"]{
     -webkit-appearance: none;
     display: none;
 }
 @media screen and (max-width: 1250px) {
-    nav{
+    header nav{
         display: block;
         padding: 0;
     }
-    nav .icon {
+    header nav .icon {
         display: inline-block;
         padding: 15px 30px;
     }
-    nav .search_box {
+    header nav .search_box {
         width: 100%;
         display: inline-flex;
         justify-content: center;
         margin-bottom: 15px;
     }
-    nav .search_box input {
+    header nav .search_box input {
         width: 90%;
     }
-    nav ol {
+    header nav ol {
         display: flex;
         flex-direction: column;
         background: #143094;
@@ -133,59 +133,59 @@ input[type="checkbox"]{
         visibility: hidden;
         transition: 0.3s;
     }
-    nav ol li {
+    header nav ol li {
         text-align: center;
         transition: 0.3s 0.1s all;
         opacity: 0;
     }
-    nav ol li a {
+    header nav ol li a {
         color: #000;
         font-size: 28px;
         padding: 25px;
         display: block;
     }
-    nav ol li:nth-child(1){
+    header nav ol li:nth-child(1){
         transform: translateX(-150px);
     }
-    nav ol li:nth-child(2){
+    header nav ol li:nth-child(2){
         transform: translateX(-200px);
     }
-    nav ol li:nth-child(3){
+    header nav ol li:nth-child(3){
         transform: translateX(-250px);
     }
-    nav ol li:nth-child(4){
+    header nav ol li:nth-child(4){
         transform: translateX(-300px);
     }
     
-    nav .bar {
+    header nav .bar {
         display: block;
         position: absolute;
         top: 20px;
         right: 80px;
         cursor: pointer;
     }
-    nav .bar #times {
+    header nav .bar #times {
         display: none;
     }
-    #check:checked ~ nav .bar #times {
+    header #check:checked ~ nav .bar #times {
         display: block;
     }
-    #check:checked ~ nav .bar #bars {
+    header #check:checked ~ nav .bar #bars {
         display: none;
     }
-    #check:checked ~ nav ol {
+    header #check:checked ~ nav ol {
         visibility: visible;
         height: 465px;
     }
-    #check:checked ~ nav ol li:nth-child(1),
-    #check:checked ~ nav ol li:nth-child(2),
-    #check:checked ~ nav ol li:nth-child(3),
-    #check:checked ~ nav ol li:nth-child(4){
+    header #check:checked ~ nav ol li:nth-child(1),
+    header #check:checked ~ nav ol li:nth-child(2),
+    header #check:checked ~ nav ol li:nth-child(3),
+    header #check:checked ~ nav ol li:nth-child(4){
         transform: translateX(0);
         opacity: 1;
     }
 }
-section {
+header section {
     background: url();
     height: 100%;
     width: 100%;
@@ -199,6 +199,9 @@ section {
 }
 .border {
     border-radius: 20px;
+}
+.body {
+    
 }
 
 
