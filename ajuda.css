@@ -250,7 +250,7 @@ h1 {
 
 .icon {
     padding-left: 35px;
-    background: #423E3E url("img/lupa.png") no-repeat left;
+    background: #423E3E 
     background-size: 30px;
 }
 
@@ -306,3 +306,6 @@ h1 {
     overflow: hidden;
     background-color: #ffffff;
   }
+.icone {
+    background: url("img/lupa.png") no-repeat left;
+}
