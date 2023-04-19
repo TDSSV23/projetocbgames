@@ -145,3 +145,7 @@ body {
 .flecha{
     top: 10px;
 }
+.localizaçãoflecha {
+    width: 20px;
+    height: 20px;
+}
