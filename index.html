@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="navbar.css">
     <title>CB Games</title>
 </head>
 <body>
+    <div>
     <header><input type="checkbox" id="check">
    <nav>
     <div class="icon"><img src="img/logo.png"><b style="color: #143094">CB</b> Games</div>
@@ -30,19 +37,61 @@
    </nav>
    <section></section>
    </header>
-   <aside class="body">
-   <div class="menu">
-    <ul>
-        <li><a href="#">Item 1</a></li>
-        <li><a href="#">Item 2</a></li>
-        <li><a href="#">Item 3</a></li>
-        <li><a href="#">Item 4</a></li>
-    </ul>
-   </div>
-   <div class="content">
-    <p>Conteúdo aqui</p>
-   </div>
-   </aside>
+   <aside>
+   <button type="button" class="burger" onclick="toggleSidebar()"></button>
+    
+    <aside class="sidebar">
+      <header class="sidebar-header"></header>
+      <nav>
+        <button type="button">
+          <img src="./img/icon-home.svg" />
+          <span>Página Inicial</span>
+        </button>
+        <button type="button">
+          <img src="./img/icon-settings.svg" />
+          <span>Configurações</span>
+        </button>
+      </nav>
+      <nav>
+        <button type="button">
+          <img src="./img/icon-blockchain.svg" />
+          <span>Eventos</span>
+        </button>
+        <button type="button">
+          <img src="./img/icon-database.svg" />
+          <span>Categorias</span>
+        </button>
+        
+      </nav>
+      <nav>
+        <button type="button">
+          <img src="./img/icon-folders.svg" />
+          <span>Pastas</span>
+        </button>
+        <button type="button">
+          <img src="./img/icon-levels.svg" />
+          <span>Filtros</span>
+        </button>
+        <button type="button">
+          <img src="./img/icon-accounts.svg" />
+          <span>Perfil</span>
+        </button>
+        <button type="button">
+          <img src="./img/icon-lock.svg" />
+          <span>Privados</span>
+        </button>
+      </nav>
+    </aside>
+    <script type="text/javascript">
+      const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+    </aside>
+    </div>
+    <div class="boxdepesquisa">
+
+    </div>
+   
+
    <br><br><br><br><br><br><br><br>
    <br><br><br><br><br>
    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

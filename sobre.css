@@ -138,6 +138,7 @@ header {
 .h3n{
     color:rgb(80, 88, 231);
     text-align: center;
+    text-decoration: underline;
 }
 .azul {
     color: blue;
@@ -276,4 +277,32 @@ section {
 .tw1{
     width: 45px;
     height: 40px;
+}
+.p {
+    color: #8e8989;
+}
+.p1 {
+    color: #8e8989;
+}
+.bv {
+    color: #ffffff;
+   text-align: center;
+}
+.fonte {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.papaguaio{
+    background-color:#c5bbbb ;
+    left:50px;
+    top:90px;
+    width: 520px;
+    height: 30px;
+    margin: auto;
+}
+.tamanhodapesquisa {
+    width: 520px;
+    height: 30px;
+    border-color: #000000;
+    background-color: #dadade;
+    
 }
