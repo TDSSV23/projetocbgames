@@ -1,0 +1,147 @@
+body {
+    background-image: url("img/fundo.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+}
+.forma1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    
+  }
+  .quadradinho{
+    background-color:#171717;
+    position: absolute;
+    top: 131px;
+    left: 820px;
+    width:380px;
+    height: 320px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  
+  #cabeça {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+  }
+  
+  .campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  
+  .iconizinho {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
+  }
+  
+  .entrada-campo {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+  }
+  
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+  }
+  
+  .botao1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .botao1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .botao2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .botao2:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .botao3 {
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .botao3:hover {
+    background-color: red;
+    color: white;
+  } 
+
+  .centro{
+    margin-top: 130px;
+    width:60%;
+    margin-left: 30px;
+    margin-right: auto;
+  }
+ .qrcode{
+    position: absolute;
+    top: 71px;
+    left: 75px;
+    width: 220px;
+    height: 220px;
+ }
+.textin{
+    position: absolute;
+    color: rgb(89, 72, 202);
+    left: 108px;
+    top: 26px;
+    width: 2000px;   
+}
+.flecha{
+    top: 10px;
+}
