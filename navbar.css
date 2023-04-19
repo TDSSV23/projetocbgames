@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-body {
-    background-image: url("img/fundo.png");
-    background-size: 100%;
-    background-attachment: fixed;
-    margin: 0px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 header nav {
     display: flex;
     width: 100%;
@@ -335,16 +322,7 @@ header section {
     line-height: 1;
     transition: 0.4s;
   }
-  /* aside {
-    position: relative;
-    z-index: -1;
-  } */
   header {
     z-index: 3;
     position: relative;
   }
-  .boxdepesquisa {
-    width: 70%;
-    height: 40px;
-  }
-
