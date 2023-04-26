@@ -335,42 +335,209 @@ header section {
     line-height: 1;
     transition: 0.4s;
   }
-  /* aside {
-    position: relative;
-    z-index: -1;
-  } */
+ 
   header {
     z-index: 3;
     position: relative;
   }
   
-.divbox {
-    width: 100%;
-    height: 10rem;
-    margin-left: auto;
-    margin-right: 200px;
-    background-color: #1e3660;
-    padding-top: 100px;
-    padding-left: 150px;
-    justify-content: space-between;
-   
-    
-      
+.decoração {
+    text-decoration-line: none;
+    color: #fff;
 }
 
-.fontebranca1 {
-    color: #ffffff;
-    text-decoration-line: none;
+
+div.gallery {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .localização {
+    padding-top: 120px;
+    padding-left: 90px;
+  }
+  .corjogosdasemana {
+    color: #fff;
+    text-align: center;
+  }
+  .divisão {
+    width: 98%;
+    background-color: #14274c;
+    border-radius: 10px;
+
+  }
+
+  
+  .localizaçãoslide {
+    padding-top: 50px;
+   
+  }
+  @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+.div-slider{
+width: auto;
+height: 400px;
+text-align: center;
 }
-.fontebranca2 {
-    color: #ffffff;
-    text-decoration-line: none;
+.slides-front {
+    padding: 0;
+    width: 980px;
+    height: 370px;
+    display: block;
+    margin: auto;
+    position: relative;
 }
-.fontebranca3 {
-    color: #ffffff;
-    text-decoration-line: none;
+
+.slides-front * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
 }
-.fontebranca4 {
-    color: #ffffff;
-    text-decoration-line: none;
+
+.slides-front input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 980px;
+    height: 370px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out 0.1s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 150px;
+    height: 100%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .2s;
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out 0.1s;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: 375px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3, {
+	background: rgba(0, 0, 0, 0.8);
+}
+.divisão2 {
+    width: 100%;
+    background-color: #14274c;
+    border-radius: 10px;
+    padding-left: 200px;
+   
+
+}
+.corjogosjogados {
+    color: #fff;
+    text-align: center;
 }

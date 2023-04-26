@@ -123,7 +123,7 @@ body {
   } 
 
   .centro{
-    margin-top: 130px;
+    margin-top: 100px;
     width:60%;
     margin-left: 30px;
     margin-right: auto;
@@ -140,12 +140,16 @@ body {
     color: rgb(89, 72, 202);
     left: 108px;
     top: 26px;
-    width: 2000px;   
+    width: 500px;   
 }
 .flecha{
     top: 10px;
 }
 .localizaçãoflecha {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+}
+.decoração {
+  text-decoration-line: none;
+  color: white;
 }
