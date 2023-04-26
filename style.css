@@ -577,3 +577,11 @@ input#img-3:checked ~ .nav-dots label#img-dot-3, {
   border-radius: 10px;
 
 }
+#mensagem {
+  display: none; /* oculta a mensagem inicialmente */
+  color: rgb(42, 95, 210);
+  font-weight: bold;
+}
+#link-mensagem:focus + #mensagem {
+  display: block; /* exibe a mensagem quando o link é clicado */
+}
