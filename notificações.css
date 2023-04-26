@@ -1,0 +1,101 @@
+.quadradao {
+    background-color:#444141;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    width: 90%;
+    height: 490px;
+    border-radius: 10px;
+}
+.retangulo1{
+    background-color:#2d2929;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width:97%;
+    height: 70px;
+    border-radius: 10px;
+}
+.retangulo2{
+    background-color:#2d2929;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    width:97%;
+    height: 70px;
+    border-radius: 10px;
+}
+.retangulo3{
+    background-color:#2d2929;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width:97%;
+    height: 70px;
+    border-radius: 10px;
+}
+.retangulo4{
+    background-color:#2d2929;
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    width:97%;
+    height: 70px;
+    border-radius: 10px;
+}
+.text1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 90px;
+    top: 20px;
+    width: 500px;
+}
+    .text11{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        left: 1180px;
+        top: 20px;
+        width: 500px;
+}
+.text2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 90px;
+    top: 20px;
+    width: 700px;
+}
+.text12{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 1180px;
+    top: 20px;
+    width: 500px;
+}
+.text3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 90px;
+    top: 20px;
+    width: 700px;
+}
+.text13{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 1180px;
+    top: 20px;
+    width: 500px;
+}
+.text4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 90px;
+    top: 20px;
+    width: 600px;
+}
+    .text14{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        left: 1180px;
+        top: 20px;
+        width: 500px;
+}

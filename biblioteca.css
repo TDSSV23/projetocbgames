@@ -226,93 +226,67 @@ section {
     top: 0;
     z-index: -1;
     filter: brightness(30%);
+  }
+
+  .barra {
+    width: 100%%;
+    background-color: #143094;
+    padding-top: 100px;
+   
+  }
+  .localizaçãoajuda {
+    padding-top: 30px;
+    padding-left: 0px;
     
-
-<<<<<<< HEAD
-}
-=======
-}
-
-.border {
+  }
+  .corajudinha1 {
+    color: #fff;
+    
+  }
+  .ajudinha {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+  }
+.gta5{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    width: 200px;
+    height: 20px;
     border-radius: 20px;
 }
-
-h1 {
-    color: white;
-    font-size: 2,5em;
-}
-
-.input {
-    width: 70%;
-    height: 70px;
-    background-color: #423E3E;
-    border-color: #423E3E;
-    color: white;
-    font-size: 18px;
-    
-
-}
-
-.icon {
-    padding-left: 35px;
-    background: #423E3E 
-    background-size: 30px;
-}
-
-.center {
-    justify-content: center;
+.gallery2 {
     display: flex;
-    
-
-}
-
-.modal {
-    display: none; 
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery2 img {
     width: 100%;
-    height: 100%;
-    overflow: auto; 
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    
-  }
-
-  
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #716f6f;
-    width: 80%;
-    
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
   }
   
-  .collapsible {
-    background-color: #5c5959;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 18px;
-    width: 32%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    margin-left: 10px;
+  .gallery2::after {
+    content: "";
+    width: 350px;
   }
-  
-  .active, .collapsible:hover {
-    background-color: #2d2020;
+  .corjogosrecomendados {
+    color: #fff;
+    text-align: center;
   }
+  .divisão3 {
+    width: 100%;
+    background-color: #14274c;
+    border-radius: 10px;
   
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #ffffff;
-
-
->>>>>>> 8144b756d51f083f2706603712204506037c1fe4
+  }

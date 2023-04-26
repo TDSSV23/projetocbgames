@@ -306,3 +306,7 @@ header {
     background-color: #dadade;
     
 }
+.decoração {
+    text-decoration-line: none;
+    color: #fff;
+}
