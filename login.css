@@ -8,21 +8,23 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width:740px;
+    height: 275px;
     padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.4em;
-    background-color: #171717;
+    padding-right: 20em;
+    padding-bottom: 2em;
+    background-color: #000000;
     border-radius: 25px;
-    transition: .4s ease-in-out;
+    transition: .2s ease-in-out;
     
   }
   .quadradinho{
-    background-color:#171717;
+    background-color: #000000;
     position: absolute;
-    top: 131px;
-    left: 720px;
+    top: 145px;
+    left: 820px;
     width:380px;
-    height: 320px;
+    height: 305px;
     border-radius: 20px;
   }
   
@@ -137,7 +139,7 @@ body {
  }
 .textin{
     position: absolute;
-    color: rgb(54, 28, 223);
+    color: rgb(89, 72, 202);
     left: 108px;
     top: 26px;
     width: 500px;   
