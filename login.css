@@ -20,7 +20,7 @@ body {
     background-color:#171717;
     position: absolute;
     top: 131px;
-    left: 820px;
+    left: 720px;
     width:380px;
     height: 320px;
     border-radius: 20px;
@@ -137,7 +137,7 @@ body {
  }
 .textin{
     position: absolute;
-    color: rgb(89, 72, 202);
+    color: rgb(54, 28, 223);
     left: 108px;
     top: 26px;
     width: 500px;   
