@@ -1,0 +1,32 @@
+#mensagem {
+    display: none; /* oculta a mensagem inicialmente */
+    color: rgb(42, 95, 210);
+    font-weight: bold;
+  }
+  #link-mensagem:focus + #mensagem {
+    display: block; /* exibe a mensagem quando o link é clicado */
+  }
+  .container {
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
+    justify-content: center; /* centraliza horizontalmente */
+    padding-top: 100px;
+    padding: 100px;
+    
+  }
+  
+  .img {
+    margin-right: 20px; /* espaçamento entre a imagem e o texto */
+    border-radius: 10px;
+  }
+.branco {
+    color: white;
+   
+}
+.borda {
+    border-color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
