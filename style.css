@@ -567,6 +567,11 @@ input#img-3:checked ~ .nav-dots label#img-dot-3, {
   content: "";
   width: 350px;
 }
+.gallery2 img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+
+}
 .corjogosrecomendados {
   color: #fff;
   text-align: center;
