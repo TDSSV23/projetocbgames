@@ -10,8 +10,9 @@
     display: flex;
     align-items: center; /* centraliza verticalmente */
     justify-content: center; /* centraliza horizontalmente */
-    padding-top: 100px;
+    padding-top: 300px;
     padding: 100px;
+
     
   }
   
