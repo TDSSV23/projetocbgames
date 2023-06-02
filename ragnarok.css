@@ -10,8 +10,7 @@
     display: flex;
     align-items: center; /* centraliza verticalmente */
     justify-content: center; /* centraliza horizontalmente */
-    padding-top: 300px;
-    padding: 200px;
+    padding: 0px 100px 100px 100px;
 
     
   }
@@ -87,4 +86,14 @@
 
 .button:active {
   border: 1px solid #2e8644;
+}
+.centro {
+  text-align: center;
+}
+.back {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 40px;
+  
 }
