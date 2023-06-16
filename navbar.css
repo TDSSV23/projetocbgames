@@ -9,8 +9,7 @@ header nav {
     padding: 15px 30px;
 }
 header nav .icon {
-    font-size: 35px;
-    font-weight: 800;
+    
     color: #fff;
     cursor: pointer;
 }
@@ -101,7 +100,7 @@ header input[type="checkbox"]{
     }
     header nav .icon {
         display: inline-block;
-        padding: 15px 30px;
+        
     }
     header nav .search_box {
         width: 100%;
@@ -325,4 +324,7 @@ header section {
   header {
     z-index: 3;
     position: relative;
+  }
+  .letrapequena {
+    font-size: 25px;
   }
